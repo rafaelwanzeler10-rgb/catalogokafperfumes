@@ -788,22 +788,6 @@ main {
   text-transform: uppercase;
 }
 
-.footer-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-  padding: 26px clamp(18px, 4vw, 56px);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.footer-bottom p {
-  margin: 0;
-  color: #bfb29b;
-  font-family: Georgia, "Times New Roman", serif;
-  font-style: italic;
-}
-
 @media (max-width: 1120px) {
   .topbar {
     align-items: flex-start;
@@ -882,10 +866,6 @@ main {
     justify-items: center;
   }
 
-  .footer-bottom {
-    align-items: flex-start;
-    flex-direction: column;
-  }
 }
 
 @media (max-width: 560px) {
