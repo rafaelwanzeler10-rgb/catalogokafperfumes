@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Catálogo digital da KAF Perfumes com produtos, busca, filtros e atendimento pelo WhatsApp.">
+    <title>KAF Perfumes | Catálogo Digital</title>
+    <link rel="icon" href="assets/kaf-logo-light.png">
+    <link rel="preconnect" href="https://wa.me">
+    <link rel="preconnect" href="https://www.instagram.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#catalogo" aria-label="KAF Perfumes">
+        <img id="brandLogo" class="brand-logo" src="assets/kaf-logo-header.png" alt="KAF Perfumes">
+        <span>
+          <strong>KAF Perfumes</strong>
+          <small>Catálogo digital</small>
+        </span>
+      </a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#filtros">Filtros</a>
+        <a href="#info-panel" data-tab="curadoria">Curadoria KAF</a>
+        <a href="#info-panel" data-tab="como-comprar">Como comprar na KAF</a>
+        <a href="#info-panel" data-tab="sobre">Sobre a KAF</a>
+        <a href="#marcas">Marcas</a>
+      </nav>
+      <div class="header-actions">
+        <a class="instagram-link" href="https://www.instagram.com/kafstore.perfumes/" target="_blank" rel="noopener">
+          <img class="link-icon" src="assets/instagram-icon.png" alt="" aria-hidden="true">
+          @kafstore.perfumes
+        </a>
+        <a id="headerWhatsapp" class="whatsapp-link" target="_blank" rel="noopener">
+          <img class="link-icon" src="assets/whatsapp-icon.png" alt="" aria-hidden="true">
+          WhatsApp
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <section id="catalogo" class="catalog-panel">
+        <div class="intro">
+          <p class="eyebrow">Produtos selecionados</p>
+          <h1>Encontre seu próximo produto</h1>
+          <p class="intro-subtitle">Perfumes importados e Body Splash escolhidos para transformar momentos simples em memórias inesquecíveis.</p>
+        </div>
+
+        <form id="filtros" class="filters" role="search" aria-label="Filtros do catálogo">
+          <label class="search-field">
+            <span>Buscar produto</span>
+            <input id="searchInput" type="search" placeholder="Digite nome, marca ou descrição" autocomplete="off">
+          </label>
+          <label>
+            <span>Categoria</span>
+            <select id="categoryFilter">
+              <option value="all">Todas as categorias</option>
+            </select>
+          </label>
+          <label>
+            <span>Marca</span>
+            <select id="brandFilter">
+              <option value="all">Todas as marcas</option>
+            </select>
+          </label>
+          <label>
+            <span>Preço</span>
+            <select id="priceFilter">
+              <option value="all">Todos os preços</option>
+              <option value="0-150">Até R$ 150</option>
+              <option value="150-300">R$ 150 a R$ 300</option>
+              <option value="300-500">R$ 300 a R$ 500</option>
+              <option value="500-999999">Acima de R$ 500</option>
+            </select>
+          </label>
+          <label>
+            <span>Ordenar por</span>
+            <select id="sortFilter">
+              <option value="name">Nome A-Z</option>
+              <option value="priceAsc">Menor preço</option>
+              <option value="priceDesc">Maior preço</option>
+            </select>
+          </label>
+        </form>
+
+        <p class="filter-note">Busque por nome, filtre por marca, categoria ou faixa de preço e fale conosco para consultar disponibilidade.</p>
+
+        <div class="quick-actions" aria-label="Atalhos do catálogo">
+          <button id="showAllButton" type="button" class="chip active">Todos</button>
+          <button id="clearFiltersButton" type="button" class="chip muted">Limpar filtros</button>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Resumo do catálogo">
+        <div>
+          <strong id="totalProducts">0</strong>
+          <span>produtos</span>
+        </div>
+        <div>
+          <strong id="totalBrands">0</strong>
+          <span>marcas</span>
+        </div>
+        <div>
+          <strong id="totalCategories">0</strong>
+          <span>categorias</span>
+        </div>
+      </section>
+
+      <section id="produtos" class="section-block">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Catálogo principal</p>
+            <h2>Todos os produtos</h2>
+          </div>
+          <p id="resultCount" class="result-count">Carregando...</p>
+        </div>
+        <div id="productsGrid" class="product-grid"></div>
+        <div id="emptyState" class="empty-state" hidden>
+          <h3>Nenhum produto encontrado</h3>
+          <p>Ajuste a busca ou os filtros para ver outras opções do catálogo.</p>
+        </div>
+        <button id="loadMoreButton" class="load-more" type="button">Carregar mais produtos</button>
+      </section>
+
+      <section id="info-panel" class="tab-panel-section" aria-live="polite" hidden>
+        <div class="tab-panel info-section curation-section" data-panel="curadoria" hidden aria-labelledby="curationTitle">
+          <div class="info-heading">
+            <p class="eyebrow">Curadoria KAF</p>
+            <h2 id="curationTitle">Uma curadoria feita para a sua história</h2>
+          </div>
+          <div class="info-copy">
+            <p>Ajudamos você a encontrar a fragrância que combina com você.</p>
+            <p>Das fragrâncias marcantes aos aromas leves para o dia a dia, ajudamos você a escolher com segurança, mesmo que esteja começando agora no mundo da perfumaria.</p>
+            <p>Conte para a KAF quais aromas você gosta, onde pretende usar e quanto deseja investir. A partir disso, indicamos opções compatíveis com seu estilo, sem complicação e sem escolhas no escuro.</p>
+          </div>
+        </div>
+
+        <div class="tab-panel info-section buy-section" data-panel="como-comprar" hidden aria-labelledby="buyTitle">
+          <div class="info-heading">
+            <p class="eyebrow">Como comprar na KAF</p>
+            <h2 id="buyTitle">Atendimento online, entrega e encomendas</h2>
+            <p class="info-lead">Atendimento online, com pronta entrega em Belém e Cametá e possibilidade de envio para outras cidades.</p>
+          </div>
+          <div class="steps-grid">
+            <article>
+              <span>01</span>
+              <h3>Chame a KAF</h3>
+              <p>Entre em contato pelo WhatsApp ou Instagram e diga o que procura.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Receba indicações</h3>
+              <p>Enviamos opções, valores e prazo conforme o seu perfil.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Confirme o pedido</h3>
+              <p>Para encomendas, a confirmação é feita com 50% de entrada.</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Receba sua fragrância</h3>
+              <p>Combinamos entrega ou envio e mantemos você atualizado.</p>
+            </article>
+          </div>
+          <p class="order-note">Observação: para encomendas, o prazo previsto é de 10 a 20 dias corridos após a confirmação do pedido.</p>
+        </div>
+
+        <div class="tab-panel about-section" data-panel="sobre" hidden aria-labelledby="aboutTitle">
+          <div class="about-heading">
+            <p class="eyebrow">Sobre a KAF</p>
+            <h2 id="aboutTitle">KAF Perfumes Importados</h2>
+          </div>
+          <div class="about-copy">
+            <p>A <strong>KAF Perfumes Importados</strong> nasceu para tornar a perfumaria importada mais acessível, confiável e fácil de escolher.</p>
+            <p>Trabalhamos com perfumes árabes, franceses, de nicho, miniaturas, outros e body splash, oferecendo opções à pronta entrega e por encomenda. Nosso atendimento é personalizado, ajudando cada cliente a encontrar a fragrância ideal para uso próprio ou para presentear.</p>
+            <p>Atendemos presencialmente e pela internet, com entregas em Belém e Cametá e envios para outras cidades.</p>
+            <p>Na KAF, você encontra qualidade, transparência e sofisticação acessível em cada escolha.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="marcas" class="section-block brand-list-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Marcas</p>
+            <h2>Navegue por marca</h2>
+          </div>
+        </div>
+        <div id="brandList" class="brand-list"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-cta">
+        <img class="footer-logo" src="assets/kaf-logo-header.png" alt="KAF Perfumes">
+        <div class="footer-copy">
+          <p class="eyebrow">Atendimento personalizado</p>
+          <h2>Vamos encontrar <span>a sua próxima essência?</span></h2>
+          <p>Fale com a KAF e receba sugestões de perfumes e body splashes para você ou para presentear.</p>
+          <div class="footer-actions">
+            <a class="instagram-cta" href="https://www.instagram.com/kafstore.perfumes/" target="_blank" rel="noopener">
+              <img class="link-icon" src="assets/instagram-icon.png" alt="" aria-hidden="true">
+              Falar pelo Instagram
+            </a>
+            <a id="footerWhatsapp" class="whatsapp-link" target="_blank" rel="noopener">
+              <img class="link-icon" src="assets/whatsapp-icon.png" alt="" aria-hidden="true">
+              WhatsApp
+            </a>
+          </div>
+          <small>Belém · Cametá · envios nacionais</small>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Fragrâncias para marcar presença, criar memórias e presentear.</p>
+        <a class="instagram-link" href="https://www.instagram.com/kafstore.perfumes/" target="_blank" rel="noopener">
+          <img class="link-icon" src="assets/instagram-icon.png" alt="" aria-hidden="true">
+          @kafstore.perfumes
+        </a>
+      </div>
+    </footer>
+
+    <template id="productCardTemplate">
+      <article class="product-card">
+        <a class="image-wrap" target="_blank" rel="noopener">
+          <img loading="lazy" alt="">
+          <span class="category-pill"></span>
+        </a>
+        <div class="product-info">
+          <h3></h3>
+          <p class="brand-name"></p>
+          <p class="description"></p>
+          <div class="price-row">
+            <strong class="price"></strong>
+            <a class="buy-button" target="_blank" rel="noopener">
+              <img class="link-icon" src="assets/whatsapp-icon.png" alt="" aria-hidden="true">
+              Consultar
+            </a>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <script src="data/catalog.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

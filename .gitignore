@@ -1,0 +1,10 @@
+# Versionar somente a pasta do site publicada no Cloudflare Pages.
+*
+!.gitignore
+!site/
+!site/**
+
+# Duplicatas e arquivos temporarios que nao precisam ir para o deploy.
+site/dist/
+site/server.*.log
+site/.openai/
