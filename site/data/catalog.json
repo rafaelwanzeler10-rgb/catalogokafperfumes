@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-08T22:09:03",
+  "generatedAt": "2026-08-08T22:53:53",
   "brandName": "KAF Perfumes",
   "whatsapp": "5591986414115",
   "logo": "assets/kaf-logo-header.png",
   "summary": {
-    "totalProducts": 931,
+    "totalProducts": 935,
     "totalBrands": 110
   },
   "brands": [
@@ -1732,7 +1732,7 @@
       "brand": "Armaf",
       "category": "Arabe",
       "categoryLabel": "Árabes",
-      "price": 359.9,
+      "price": 349.9,
       "description": "",
       "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
     },
@@ -9455,6 +9455,46 @@
       "price": 369.9,
       "description": "O kit contém 3 peças: 1 Perfume Khamrah Eau De Parfum Natural Spray 100 ml; 1 Perfume Khamrah Eau De Parfum Travel Spray 12 ml; 1 Perfume Khamrah Fresh Hair Mist 50 ml.",
       "image": "assets/products/0931-lattafa-kit-lattafa-khamrah-3-pecas.webp"
+    },
+    {
+      "id": "91e0eb936d005b3aa0d1623ea45c2311",
+      "name": "Orientica Nayaat Burning Desire 100ml",
+      "brand": "Nayaat",
+      "category": "Arabe",
+      "categoryLabel": "Árabes",
+      "price": 509.9,
+      "description": "perfume luxuoso, ideal para quem busca uma assinatura olfativa marcante e com excelente fixação.",
+      "image": "assets/products/0932-nayaat-orientica-nayaat-burning-desire-100ml.webp"
+    },
+    {
+      "id": "ab48b539a41159eda9973f61448e984f",
+      "name": "Orientica Royal Collection Monarch 80ml",
+      "brand": "Orientica",
+      "category": "Arabe",
+      "categoryLabel": "Árabes",
+      "price": 709.9,
+      "description": "Perfume compartilhável. Notas de topo: Bergamota, Mandarina e Pimenta Rosa. Notas coração: Pereira, Âmbar e Lírio-do-Vale. Notas de fundo são: Almíscar e Âmbar Cinzento. Ideal para eventos.",
+      "image": "assets/products/0933-orientica-orientica-royal-collection-monarch-80ml.webp"
+    },
+    {
+      "id": "dd5f4741a65552bb994bb4bdf89f031f",
+      "name": "Armaf Infinity Gold 105ml",
+      "brand": "Armaf",
+      "category": "Arabe",
+      "categoryLabel": "Árabes",
+      "price": 469.9,
+      "description": "Perfume Floral Amadeirado Almiscarado Feminino. As notas de topo são: Pera, Lavanda e Rosa. As notas de coração são: Ylang Ylang e Jasmim. As notas de fundo são: Almíscar, Baunilha e Musgo.",
+      "image": "assets/products/0934-armaf-armaf-infinity-gold-105ml.webp"
+    },
+    {
+      "id": "c96338cba119528c957f19afbde0e9ed",
+      "name": "Alhambra La Vivacite 100ml",
+      "brand": "Maison Alhambra",
+      "category": "Arabe",
+      "categoryLabel": "Árabes",
+      "price": 219.9,
+      "description": "Perfume Floral Frutado Feminino. As notas de topo são: Groselha Preta e Pera. As notas de coração são: Íris, Flor de Laranjeira e Jasmim. As notas de fundo são: Patchouli, Fava Tonka, Pralinê e Baunilha.",
+      "image": "assets/products/0935-maison-alhambra-alhambra-la-vivacite-100ml.webp"
     }
   ]
 }
