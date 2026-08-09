@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T22:53:53",
+  "generatedAt": "2026-08-08T23:12:21",
   "brandName": "KAF Perfumes",
   "whatsapp": "5591986414115",
   "logo": "assets/kaf-logo-header.png",
@@ -364,7 +364,7 @@
       "categoryLabel": "Árabes",
       "price": 389.9,
       "description": "Perfume masculino cítrico e amadeirado, com toque fresco, âmbar e almíscar. Elegante, ideal para dia a dia e trabalho.",
-      "image": "assets/products/0017-afnan-afnan-portrait-abstract-100ml.webp"
+      "image": "assets/products/0022-afnan-afnan-turathi-90ml.webp"
     },
     {
       "id": "e4dd39c2939b412daae48b2d266433cb",
@@ -764,7 +764,7 @@
       "categoryLabel": "Árabes",
       "price": 209.9,
       "description": "Perfume feminino gourmand e doce, com frutas, flores, baunilha e almíscar. Aconchegante e ideal para encontros e dias frios.",
-      "image": "assets/products/0045-al-wataniah-al-wataniah-bouquet-vanilla-100ml.webp"
+      "image": "assets/products/0062-al-wataniah-al-wataniah-sabah-al-ward-sugar-100ml.jpg"
     },
     {
       "id": "b27fd0800e104692b1c66f42dedd22c4",
@@ -794,7 +794,7 @@
       "categoryLabel": "Árabes",
       "price": 209.9,
       "description": "",
-      "image": "assets/products/0045-al-wataniah-al-wataniah-bouquet-vanilla-100ml.webp"
+      "image": "assets/products/0065-al-wataniah-al-wataniah-sultan-al-lail-100ml.webp"
     },
     {
       "id": "c47960ee95514aff86df6595ad160388",
@@ -854,7 +854,7 @@
       "categoryLabel": "Árabes",
       "price": 209.9,
       "description": "",
-      "image": "assets/products/0045-al-wataniah-al-wataniah-bouquet-vanilla-100ml.webp"
+      "image": "assets/products/0071-al-wataniah-al-wataniah-zaeem-100ml.webp"
     },
     {
       "id": "f1be7f9c050c5465ae1d20fabb60bce2",
@@ -1164,7 +1164,7 @@
       "categoryLabel": "Árabes",
       "price": 249.9,
       "description": "",
-      "image": "assets/products/0100-arabiyat-arabiyat-blueberry-musk-edp-100ml.webp"
+      "image": "assets/products/0102-arabiyat-arabiyat-cranberry-musk-edp-100ml.webp"
     },
     {
       "id": "7d6d870af8c144aba41c9826f2404716",
@@ -1284,7 +1284,7 @@
       "categoryLabel": "Árabes",
       "price": 189.9,
       "description": "",
-      "image": "assets/products/0111-ard-al-zaafaran-ard-al-zaafaran-al-dirgham-limited-edition.webp"
+      "image": "assets/products/0114-ard-al-zaafaran-ard-al-zaafaran-alora-100ml.webp"
     },
     {
       "id": "759caed5f9d64d018dcfc794e04fa35e",
@@ -1374,7 +1374,7 @@
       "categoryLabel": "Árabes",
       "price": 179.9,
       "description": "",
-      "image": "assets/products/0111-ard-al-zaafaran-ard-al-zaafaran-al-dirgham-limited-edition.webp"
+      "image": "assets/products/0123-ard-al-zaafaran-ard-al-zaafaran-dirham-oud.webp"
     },
     {
       "id": "59445cd029274661812c601544d220b4",
@@ -1474,7 +1474,7 @@
       "categoryLabel": "Árabes",
       "price": 179.9,
       "description": "",
-      "image": "assets/products/0111-ard-al-zaafaran-ard-al-zaafaran-al-dirgham-limited-edition.webp"
+      "image": "assets/products/0133-ard-al-zaafaran-ard-al-zaafaran-oud-24-hours-majestic-gold-100ml.webp"
     },
     {
       "id": "0b9f4c3e5e8c484cbb5bb8c0b9ca178c",
@@ -1514,7 +1514,7 @@
       "categoryLabel": "Árabes",
       "price": 189.9,
       "description": "",
-      "image": "assets/products/0111-ard-al-zaafaran-ard-al-zaafaran-al-dirgham-limited-edition.webp"
+      "image": "assets/products/0137-ard-al-zaafaran-ard-al-zaafaran-satwa.webp"
     },
     {
       "id": "5bfa91e1eafb4b5aadc4247bbe335bb1",
@@ -1574,7 +1574,7 @@
       "categoryLabel": "Árabes",
       "price": 179.9,
       "description": "",
-      "image": "assets/products/0111-ard-al-zaafaran-ard-al-zaafaran-al-dirgham-limited-edition.webp"
+      "image": "assets/products/0143-ard-al-zaafaran-ard-al-zaafaran-teef-al-hub.webp"
     },
     {
       "id": "c86de13dcc985e01b07e9376917b72d6",
@@ -1584,7 +1584,7 @@
       "categoryLabel": "Árabes",
       "price": 189.9,
       "description": "",
-      "image": "assets/products/0111-ard-al-zaafaran-ard-al-zaafaran-al-dirgham-limited-edition.webp"
+      "image": "assets/products/0144-ard-al-zaafaran-ard-al-zaafaran-thara-al-oud-supreme-intense.webp"
     },
     {
       "id": "6b6e72b485dd4781b40641814d5c02ce",
@@ -1604,7 +1604,7 @@
       "categoryLabel": "Miniaturas",
       "price": 89.9,
       "description": "",
-      "image": "assets/products/0111-ard-al-zaafaran-ard-al-zaafaran-al-dirgham-limited-edition.webp"
+      "image": "assets/products/0146-ard-al-zaafaran-mini-ard-al-zaafaran-al-dirgham-50ml.webp"
     },
     {
       "id": "ca23ca59844f414d96f21200b6b57040",
@@ -1694,7 +1694,7 @@
       "categoryLabel": "Árabes",
       "price": 369.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0155-armaf-armaf-club-de-nuit-lionheart-man-100ml.webp"
     },
     {
       "id": "33123254c8b4572e9391127a3bc5f46f",
@@ -1704,7 +1704,7 @@
       "categoryLabel": "Árabes",
       "price": 369.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0156-armaf-armaf-club-de-nuit-lionheart-woman-100ml.webp"
     },
     {
       "id": "728fc3fe247d484584d11b2d87bb11f5",
@@ -1724,7 +1724,7 @@
       "categoryLabel": "Árabes",
       "price": 469.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0158-armaf-armaf-club-de-nuit-precieux-iv.webp"
     },
     {
       "id": "57621c78be8f58bf99c9f92bce01a242",
@@ -1734,7 +1734,7 @@
       "categoryLabel": "Árabes",
       "price": 349.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0159-armaf-armaf-club-de-nuit-sillage-100ml.webp"
     },
     {
       "id": "ce1ad8dd9a8c42b6a306251085145369",
@@ -1764,7 +1764,7 @@
       "categoryLabel": "Árabes",
       "price": 339.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0162-armaf-armaf-club-de-nuit-woman-105ml.webp"
     },
     {
       "id": "2af26eb9430a4f058a7df01759cd105c",
@@ -1824,7 +1824,7 @@
       "categoryLabel": "Árabes",
       "price": 359.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0168-armaf-armaf-le-parfait-pour-femme-100ml.webp"
     },
     {
       "id": "8c116b76256256aaae48777303ebfce5",
@@ -1834,7 +1834,7 @@
       "categoryLabel": "Árabes",
       "price": 279.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0169-armaf-armaf-le-parfait-pour-homme-100ml.webp"
     },
     {
       "id": "ab3c505e318245b8807019d593078d25",
@@ -1894,7 +1894,7 @@
       "categoryLabel": "Árabes",
       "price": 299.9,
       "description": "",
-      "image": "assets/products/0149-armaf-armaf-bon-bon.webp"
+      "image": "assets/products/0175-armaf-armaf-odyssey-mandarin-sky-100ml.webp"
     },
     {
       "id": "a06369beede756fba43cf39965bb9245",
@@ -1904,7 +1904,7 @@
       "categoryLabel": "Árabes",
       "price": 249.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0176-armaf-armaf-odyssey-spectra-rainbow-edition-100ml.webp"
     },
     {
       "id": "f9b03a1c470e575792f1bfab8476c2fe",
@@ -1914,7 +1914,7 @@
       "categoryLabel": "Árabes",
       "price": 309.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0177-armaf-armaf-the-lion-s-club-feroce-100ml.webp"
     },
     {
       "id": "dcfbc716d59e5494955cea5ed18730cf",
@@ -1924,7 +1924,7 @@
       "categoryLabel": "Árabes",
       "price": 309.9,
       "description": "",
-      "image": "assets/products/0154-armaf-armaf-club-de-nuit-intense-woman-100ml.webp"
+      "image": "assets/products/0178-armaf-armaf-the-lion-s-club-monarque-100ml.webp"
     },
     {
       "id": "b18507759372450f896285f6ea72507d",
@@ -2014,7 +2014,7 @@
       "categoryLabel": "Árabes",
       "price": 199.9,
       "description": "",
-      "image": "assets/products/0186-asdaaf-asdaaf-ameerat-al-arab-imperium-azul-100ml.webp"
+      "image": "assets/products/0187-asdaaf-asdaaf-ameerat-al-arab-preto-100ml.webp"
     },
     {
       "id": "6043544b167c4f0c9745a1cb476c1a82",
@@ -2034,7 +2034,7 @@
       "categoryLabel": "Árabes",
       "price": 219.9,
       "description": "Perfume feminino, com notas de topo: Cítricas e Bergamota, de coração: Almíscar Branco e Babosa, e de fundo: Jasmim, Almíscar, Notas Amadeiradas e Agarwood (Oud). Ideal para dia a dia e encontros.",
-      "image": "assets/products/0186-asdaaf-asdaaf-ameerat-al-arab-imperium-azul-100ml.webp"
+      "image": "assets/products/0189-asdaaf-asdaaf-ameerat-al-arab-vermelho-100ml.webp"
     },
     {
       "id": "bc0d922f610e47f282dcc7e4d2069fbd",
@@ -4214,7 +4214,7 @@
       "categoryLabel": "Nicho",
       "price": 1419.9,
       "description": "",
-      "image": "assets/products/0406-jo-malone-jo-malone-london-blackberry-bay-100ml.webp"
+      "image": "assets/products/0407-jo-malone-jo-malone-london-english-pearl-sweetpea-100ml.webp"
     },
     {
       "id": "7f1d37502a4258859f5f74a41c6d96f0",
@@ -4224,7 +4224,7 @@
       "categoryLabel": "Nicho",
       "price": 1309.9,
       "description": "",
-      "image": "assets/products/0406-jo-malone-jo-malone-london-blackberry-bay-100ml.webp"
+      "image": "assets/products/0408-jo-malone-jo-malone-london-peony-blush-suede-cologne-100ml.webp"
     },
     {
       "id": "6df0cc1f7dfc47ffb73acff99a86c82b",
@@ -5714,7 +5714,7 @@
       "categoryLabel": "Miniaturas",
       "price": 89.9,
       "description": "",
-      "image": "assets/products/0556-le-chameau-mini-le-chameau-arabia-haya-25ml.webp"
+      "image": "assets/products/0557-le-chameau-mini-le-chameau-arabia-haya-crush-25ml.webp"
     },
     {
       "id": "5c781b8035c7404c9fae1b19ec081a08",
@@ -5734,7 +5734,7 @@
       "categoryLabel": "Miniaturas",
       "price": 89.9,
       "description": "",
-      "image": "assets/products/0556-le-chameau-mini-le-chameau-arabia-haya-25ml.webp"
+      "image": "assets/products/0559-le-chameau-mini-le-chameau-arabia-soleil-25ml.webp"
     },
     {
       "id": "5aae6c01182b420585cc31d8106edae4",
@@ -7444,7 +7444,7 @@
       "categoryLabel": "Miniaturas",
       "price": 89.9,
       "description": "",
-      "image": "assets/products/0729-neeche-collection-mini-neeche-collection-no.-128-25ml.webp"
+      "image": "assets/products/0730-neeche-collection-mini-neeche-collection-no.-129-25ml.webp"
     },
     {
       "id": "bca65964012546e8bc8a142034c7996b",
@@ -8924,7 +8924,7 @@
       "categoryLabel": "Nicho",
       "price": 2079.9,
       "description": "",
-      "image": "assets/products/0877-sospiro-sospiro-basso-100ml.webp"
+      "image": "assets/products/0878-sospiro-sospiro-vibranna-edp-100ml.webp"
     },
     {
       "id": "aefbe120cd0641fba7b297bcdd67d653",
@@ -9254,7 +9254,7 @@
       "categoryLabel": "Nicho",
       "price": 1629.9,
       "description": "",
-      "image": "assets/products/0908-xerjoff-xerjoff-erba-gold-100ml.webp"
+      "image": "assets/products/0911-xerjoff-xerjoff-torino-21-edp-100ml.webp"
     },
     {
       "id": "230c96904a5e5585809cc0a542b9c024",
@@ -9264,7 +9264,7 @@
       "categoryLabel": "Nicho",
       "price": 1059.9,
       "description": "",
-      "image": "assets/products/0908-xerjoff-xerjoff-erba-gold-100ml.webp"
+      "image": "assets/products/0912-xerjoff-xerjoff-wardasina-eau-de-parfum-50ml.webp"
     },
     {
       "id": "5918b795070043ebadeca9641a64e5e6",
