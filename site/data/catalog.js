@@ -1,5 +1,5 @@
 window.KAF_CATALOG = {
-  "generatedAt": "2026-08-08T22:02:59",
+  "generatedAt": "2026-08-08T22:09:03",
   "brandName": "KAF Perfumes",
   "whatsapp": "5591986414115",
   "logo": "assets/kaf-logo-header.png",
@@ -7787,14 +7787,14 @@ window.KAF_CATALOG = {
       "image": "assets/products/0764-orientica-orientica-pistache-absolu-80ml.webp"
     },
     {
-      "id": "cde6638c579d49dbb2a18eb9d1f8bc3e",
-      "name": "Orientica Royal Amber 30ml",
+      "id": "a00e93d0c2f85e57b1dbc4458f0ebfdf",
+      "name": "Orientica Royal Amber 80ml",
       "brand": "Orientica",
       "category": "Arabe",
       "categoryLabel": "Árabes",
-      "price": 469.9,
-      "description": "Perfume compartilhável oriental ambarado, com baunilha, especiarias e madeiras. Ideal para noites e eventos.",
-      "image": "assets/products/0765-orientica-orientica-royal-amber-30ml.webp"
+      "price": 599.9,
+      "description": "Perfume compartilhável oriental. As notas de topo são: Bergamota e Notas Verdes. As notas de coração são: Notas Doces, Melão, Abacaxi e Âmbar. As notas de fundo são: Almíscar, Notas Amadeiradas e Baunilha. Ideal para noites e eventos.",
+      "image": "assets/products/0765-orientica-orientica-royal-amber-80ml.webp"
     },
     {
       "id": "f6203722bfd5407db1ec6116e353217f",
