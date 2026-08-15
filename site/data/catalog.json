@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-08T23:12:21",
+  "generatedAt": "2026-08-14T22:19:39",
   "brandName": "KAF Perfumes",
   "whatsapp": "5591986414115",
   "logo": "assets/kaf-logo-header.png",
   "summary": {
-    "totalProducts": 935,
+    "totalProducts": 936,
     "totalBrands": 110
   },
   "brands": [
@@ -9495,6 +9495,16 @@
       "price": 219.9,
       "description": "Perfume Floral Frutado Feminino. As notas de topo são: Groselha Preta e Pera. As notas de coração são: Íris, Flor de Laranjeira e Jasmim. As notas de fundo são: Patchouli, Fava Tonka, Pralinê e Baunilha.",
       "image": "assets/products/0935-maison-alhambra-alhambra-la-vivacite-100ml.webp"
+    },
+    {
+      "id": "dbb1e1f4a19e57b28d7d02319a897db4",
+      "name": "Afnan 9pm 100ml",
+      "brand": "Afnan",
+      "category": "Arabe",
+      "categoryLabel": "Árabes",
+      "price": 339.9,
+      "description": "",
+      "image": "assets/products/0936-afnan-afnan-9pm-100ml.webp"
     }
   ]
 }
