@@ -687,9 +687,11 @@ main {
 .price-note {
   max-width: 210px;
   color: #7a6b59;
-  font-size: 0.66rem;
+  font-size: 0.58rem;
   font-weight: 600;
   line-height: 1.25;
+  text-align: justify;
+  text-align-last: left;
 }
 
 .buy-button {
