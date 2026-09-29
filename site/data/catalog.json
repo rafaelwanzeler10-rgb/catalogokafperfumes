@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-08-14T22:19:39",
+  "generatedAt": "2026-09-29T20:14:56",
   "brandName": "KAF Perfumes",
   "whatsapp": "5591986414115",
   "logo": "assets/kaf-logo-header.png",
   "summary": {
-    "totalProducts": 936,
+    "totalProducts": 937,
     "totalBrands": 110
   },
   "brands": [
@@ -1542,7 +1542,7 @@
       "brand": "Ard Al Zaafaran",
       "category": "Arabe",
       "categoryLabel": "Árabes",
-      "price": 219.9,
+      "price": 229.9,
       "description": "Perfume feminino fresco e frutado, com toque floral e suave. Ideal para dia a dia, calor e momentos casuais.",
       "image": "assets/products/0140-ard-al-zaafaran-ard-al-zaafaran-shams-al-emarat-k.-pink-blush.webp"
     },
@@ -1762,7 +1762,7 @@
       "brand": "Armaf",
       "category": "Arabe",
       "categoryLabel": "Árabes",
-      "price": 339.9,
+      "price": 329.9,
       "description": "",
       "image": "assets/products/0162-armaf-armaf-club-de-nuit-woman-105ml.webp"
     },
@@ -9492,7 +9492,7 @@
       "brand": "Maison Alhambra",
       "category": "Arabe",
       "categoryLabel": "Árabes",
-      "price": 219.9,
+      "price": 249.9,
       "description": "Perfume Floral Frutado Feminino. As notas de topo são: Groselha Preta e Pera. As notas de coração são: Íris, Flor de Laranjeira e Jasmim. As notas de fundo são: Patchouli, Fava Tonka, Pralinê e Baunilha.",
       "image": "assets/products/0935-maison-alhambra-alhambra-la-vivacite-100ml.webp"
     },
@@ -9505,6 +9505,16 @@
       "price": 339.9,
       "description": "",
       "image": "assets/products/0936-afnan-afnan-9pm-100ml.webp"
+    },
+    {
+      "id": "28e10e8ff206596684f6e59196370472",
+      "name": "ARD AL ZAAFARAN EFTINAAN 100ML",
+      "brand": "Ard Al Zaafaran",
+      "category": "Arabe",
+      "categoryLabel": "Árabes",
+      "price": 219.9,
+      "description": "",
+      "image": "assets/products/0937-ard-al-zaafaran-ard-al-zaafaran-eftinaan-100ml.jpg"
     }
   ]
 }
